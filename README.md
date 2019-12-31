@@ -1,12 +1,12 @@
 # MyProject
 Projects for Udemy Python Bootcamp 2019-2020
 
-# TicTacToe Game - !st Python project
+## TicTacToe Game - First Python project - Milestone 1 for Udemy's Python Bootcamp
 
 Python 3.7
 IDE: PyCharm Community Edition
 
-# Console Display
+## Console Display
 
 Welcome TicTacToe players!
 
