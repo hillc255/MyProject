@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2f2f4ea-a196-4dbb-a611-4ebb18ed85b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.TicTacToe">
+  <component name="RunManager" selected="Python.SolutionTicTacToe">
     <configuration name="Car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,10 +52,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SolutionTicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SolutionTicTacToe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -74,9 +97,11 @@
     <list>
       <item itemvalue="Python.Car" />
       <item itemvalue="Python.TicTacToe" />
+      <item itemvalue="Python.SolutionTicTacToe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SolutionTicTacToe" />
         <item itemvalue="Python.TicTacToe" />
         <item itemvalue="Python.Car" />
       </list>
@@ -120,22 +145,38 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="721" y="192" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1577783004033" />
-    <state width="1652" height="394" key="GridCell.Tab.0.bottom" timestamp="1577888031608">
+    <state width="1547" height="473" key="GridCell.Tab.0.bottom" timestamp="1577912154488">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1652" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1577888031608" />
-    <state width="1652" height="394" key="GridCell.Tab.0.center" timestamp="1577888031608">
+    <state width="1547" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="1547" height="473" key="GridCell.Tab.0.center" timestamp="1577912154488">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1652" height="394" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1577888031608" />
-    <state width="1652" height="394" key="GridCell.Tab.0.left" timestamp="1577888031608">
+    <state width="1547" height="473" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="1547" height="473" key="GridCell.Tab.0.left" timestamp="1577912154488">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1652" height="394" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1577888031608" />
-    <state width="1652" height="394" key="GridCell.Tab.0.right" timestamp="1577888031608">
+    <state width="1547" height="473" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="1547" height="473" key="GridCell.Tab.0.right" timestamp="1577912154488">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1652" height="394" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1577888031608" />
+    <state width="1547" height="473" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="1547" height="473" key="GridCell.Tab.1.bottom" timestamp="1577912154489">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1547" height="473" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154489" />
+    <state width="1547" height="473" key="GridCell.Tab.1.center" timestamp="1577912154488">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1547" height="473" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="1547" height="473" key="GridCell.Tab.1.left" timestamp="1577912154488">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1547" height="473" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="1547" height="473" key="GridCell.Tab.1.right" timestamp="1577912154489">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1547" height="473" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154489" />
     <state x="382" y="35" key="SettingsEditor" timestamp="1577783459380">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -144,9 +185,24 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="594" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1577697515021" />
+    <state x="482" y="98" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577910314085">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="482" y="98" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1577910314085" />
     <state x="559" y="190" width="840" height="843" key="search.everywhere.popup" timestamp="1577650718860">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="559" y="190" width="840" height="843" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1577650718860" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
