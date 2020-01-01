@@ -5,18 +5,19 @@
 #               Milestone 1 - Udemy Python Bootcamp
 #               My first Python program (IDE PyCharm)
 # Assignment Description:
-# 1. Two players should be able to play the game
-# (both sitting at the same computer)
+# 1. Two players should be able to play the game - at same computer
 # 2. The board should be printed out every time a player makes a move
 # 3. You should be able to accept input of the player position and
 # 4. then place a symbol on the board
 
 class TicTacToe:
 
-    def board(self):
+    # Function to display board
+    def board(self,result):
         print(f"\n  {result[0]}  |  {result[1]}  |  {result[2]}   \n_____|_____|_____\n  {result[3]}  |  {result[4]}  |  {result[5]}   \n_____|_____|_____\n  {result[6]}  |  {result[7]}  |  {result[8]}   \n     |     |     \n")
 
-    def playercheckwin(self):
+    # Function to check if play is a winning move
+    def playercheckwin(self,result,player,wins):
         temp = result.copy()
         # list comprehension - print pattern x
         if player == 'X':
@@ -31,28 +32,37 @@ class TicTacToe:
             winsublist = wins[i]
             if all(elem in playpattern for elem in winsublist):
                 print(f"Player {player} wins!")
-                quit()
+                playagain()
         # No winning play continue game
         else:
             return
 
-if __name__ == '__main__':
+# Function to play again
+def playagain():
+    action2 = input("Enter Y to play again?  ")
+    while not action2:
+        action2 =  input("Enter Y to play again?  ")
+    if action2 in ("Y","y"):
+        main()
+    else:
+        print("Bye. Thanks for playing.")
+        quit()
 
+# Function to set up variables, initial board and loop through plays
+def main():
     my_tictactoe = TicTacToe()
     print("\nWelcome TicTacToe players!\n")
-    count = 0
-    loc = 0
-    q = True
+    count, loc = 0, 0
     tiles = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
     result = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    temp, playpattern, winsublist = [],[],[]
-    wins = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
+    temp, playpattern, winsublist = [], [], []
+    wins = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
 
     #Display initial board
-    my_tictactoe.board()
+    my_tictactoe.board(result)
 
     #Loop for the gamee
-    while q:
+    while True:
         # Alternate between players using odd and even number
         if count % 2 == 0:
             player = "X"
@@ -77,17 +87,21 @@ if __name__ == '__main__':
                     result[n] = player
 
                     # Display board
-                    my_tictactoe.board()
+                    my_tictactoe.board(result)
 
                     # Check for winning play
                     if count > 4:
-                        my_tictactoe.playercheckwin()
+                        my_tictactoe.playercheckwin(result,player,wins)
 
                     # Make sure all tiles are used
                     if count >= 9:
                         print("Game over - Draw!")
-                        q = False
+                        my_tictactoe.playagain()
 
+# Start game
+if __name__ == '__main__':
 
+    # Call main function
+    main()
 
 
