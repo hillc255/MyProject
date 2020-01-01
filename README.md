@@ -4,7 +4,9 @@
 ## TicTacToe Game - First Python Project - Milestone 1
 
      Python 3.7
-     IDE PyCharm Community Edition
+     IDE PyCharm Community Edition     
+     
+     Console Output:
 
 <p align="center">
  <kbd><img width="225" height="399" src="readme_assets/TicTacToe.png"></kbd>
