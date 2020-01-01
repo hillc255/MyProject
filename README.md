@@ -10,7 +10,7 @@
 
 
 <p align="center">
- <kbd><img width="125" height="299" src="readme_assets/TicTacToe.png"></kbd>
+ <kbd><img width="225" height="399" src="readme_assets/TicTacToe.png"></kbd>
 </p>
 
     
