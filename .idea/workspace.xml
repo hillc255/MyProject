@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2f2f4ea-a196-4dbb-a611-4ebb18ed85b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionTicTacToe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToeSolution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +29,59 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
-  <component name="RunManager" selected="Python.SolutionTicTacToe">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="MyProject" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="MyProject" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.BankAccount">
+    <configuration name="BankAccount" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BankAccount.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BankAccountSolution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BankAccountSolution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -44,27 +95,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Car.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SolutionTicTacToe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,14 +124,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TicTacToeSolution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Claudia\PycharmProjects\MyProject\TicTacToeSolution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Car" />
       <item itemvalue="Python.TicTacToe" />
-      <item itemvalue="Python.SolutionTicTacToe" />
+      <item itemvalue="Python.TicTacToeSolution" />
+      <item itemvalue="Python.BankAccount" />
+      <item itemvalue="Python.BankAccountSolution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SolutionTicTacToe" />
+        <item itemvalue="Python.BankAccount" />
+        <item itemvalue="Python.BankAccountSolution" />
+        <item itemvalue="Python.TicTacToeSolution" />
         <item itemvalue="Python.TicTacToe" />
         <item itemvalue="Python.Car" />
       </list>
@@ -145,22 +200,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="721" y="192" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1577783004033" />
-    <state width="1547" height="473" key="GridCell.Tab.0.bottom" timestamp="1577912154488">
+    <state width="845" height="332" key="GridCell.Tab.0.bottom" timestamp="1578307847719">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1547" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
-    <state width="1547" height="473" key="GridCell.Tab.0.center" timestamp="1577912154488">
+    <state width="845" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1578307847719" />
+    <state width="845" height="332" key="GridCell.Tab.0.center" timestamp="1578307847718">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1547" height="473" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
-    <state width="1547" height="473" key="GridCell.Tab.0.left" timestamp="1577912154488">
+    <state width="845" height="332" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1578307847718" />
+    <state width="845" height="332" key="GridCell.Tab.0.left" timestamp="1578307847718">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1547" height="473" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
-    <state width="1547" height="473" key="GridCell.Tab.0.right" timestamp="1577912154488">
+    <state width="845" height="332" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1578307847718" />
+    <state width="845" height="332" key="GridCell.Tab.0.right" timestamp="1578307847719">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1547" height="473" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154488" />
+    <state width="845" height="332" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1578307847719" />
     <state width="1547" height="473" key="GridCell.Tab.1.bottom" timestamp="1577912154489">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -177,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1547" height="473" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1577912154489" />
-    <state x="382" y="35" key="SettingsEditor" timestamp="1577783459380">
+    <state x="382" y="35" key="SettingsEditor" timestamp="1578305203697">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="382" y="35" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1577783459380" />
+    <state x="382" y="35" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1578305203697" />
     <state x="594" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1577697515021">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
